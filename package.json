@@ -1,6 +1,6 @@
 {
   "name": "lasagne",
-  "version": "1.0.0alpha",
+  "version": "1.0.1-alpha",
   "main": "build/index.js",
   "license": "MIT",
   "author": "lamartire",
@@ -19,7 +19,7 @@
     "transform": {
       "^.+\\.ts$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
-    "testRegex": "^.+\\.spec\\.(js|ts)$",
+    "testRegex": "^.+\\.spec\\.ts$",
     "moduleFileExtensions": [
       "ts",
       "js",
