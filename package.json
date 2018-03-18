@@ -1,0 +1,40 @@
+{
+  "name": "lasagne",
+  "version": "1.0.0alpha",
+  "main": "build/index.js",
+  "license": "MIT",
+  "author": "lamartire",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/lamartire/lasagne"
+  },
+  "scripts": {
+    "build": "node_modules/typescript/bin/tsc",
+    "dev": "node_modules/typescript/bin/tsc -w",
+    "test": "node_modules/jest-cli/bin/jest.js",
+    "lint": "node_modules/tslint/bin/tslint src/**/*.ts",
+    "postinstall": "npm run build"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.ts$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "^.+\\.spec\\.(js|ts)$",
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.0",
+    "@types/node": "^9.4.7",
+    "jest": "^22.4.2",
+    "jest-cli": "^23.0.0-alpha.0",
+    "prettier": "^1.11.1",
+    "ts-jest": "^22.4.1",
+    "tslint": "^5.9.1",
+    "tslint-plugin-prettier": "^1.3.0",
+    "typescript": "^2.7.2"
+  }
+}
