@@ -1,8 +1,8 @@
 {
   "name": "lasagne",
   "description": "Easy way to mock api locally",
-  "version": "1.0.2-alpha",
-  "main": "build/index.js",
+  "version": "1.0.4-alpha",
+  "main": "./build/index.js",
   "license": "MIT",
   "author": "lamartire",
   "repository": {
@@ -10,11 +10,10 @@
     "url": "https://github.com/lamartire/lasagne"
   },
   "scripts": {
-    "build": "node_modules/typescript/bin/tsc",
-    "dev": "node_modules/typescript/bin/tsc -w",
-    "test": "node_modules/jest-cli/bin/jest.js",
-    "lint": "node_modules/tslint/bin/tslint src/**/*.ts",
-    "postinstall": "npm run build"
+    "compile": "./node_modules/typescript/bin/tsc",
+    "dev": "./node_modules/typescript/bin/tsc -w",
+    "test": "./node_modules/jest-cli/bin/jest.js",
+    "lint": "./node_modules/tslint/bin/tslint src/**/*.ts"
   },
   "jest": {
     "transform": {
