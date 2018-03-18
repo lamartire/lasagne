@@ -1,6 +1,7 @@
 {
   "name": "lasagne",
-  "version": "1.0.1-alpha",
+  "description": "Easy way to mock api locally",
+  "version": "1.0.2-alpha",
   "main": "build/index.js",
   "license": "MIT",
   "author": "lamartire",

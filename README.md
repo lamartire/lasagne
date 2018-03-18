@@ -2,7 +2,21 @@
 
 > Easy way to mock api locally
 
-## Core concept
+## Installation
+
+You can install `lasagne` from npm with `yarn`:
+
+```shell
+yarn add lasagne
+```
+
+Or with npm:
+
+```shell
+npm i lasagne
+```
+
+## Core concept and usage
 
 Lasagne was created for make work without api more standartized and allow to make easy switch
 between remote api and local api layers.
